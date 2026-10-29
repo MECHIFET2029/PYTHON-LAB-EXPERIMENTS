@@ -1,0 +1,48 @@
+3A
+library=["books", "author", "barcodenumber" , "price"] 
+library[0]="Let us C"
+print(library[0])
+library[1]=" Yashavant Kanetkar" 
+library[2]=123987 
+library[3]=234 
+print(library)
+tup1 = (12134,250000 )
+tup2 = ('books', 'totalprice')
+tup3 = tup1 + tup2; 
+print(tup3)
+
+3B
+LIST:
+Computers = ["Dell", "Lenovo", "HP", "Apple", "Acer", "Asus"] 
+new_list = [] 
+for i in computers:
+    if "A" in i:
+        new_list.append(i) 
+        print(new_list)
+TUPLE:
+Computers=("Dell", "Lenovo", "HP", "Apple", )
+print(Computers)
+print(Computers [0])
+print(Computers [1])
+print(Computers [2])
+print(Computers [3])
+
+
+3C
+LISTS:
+materials= ["cementbags", "bricks", "sand", "Steelbars", "Paint"] 
+materials.append(“ Tiles”)
+materials.insert(3,"Aggregates")
+materials.remove("sand") 
+materials[5]="electrical" 
+print(materials)
+
+
+TUPLES:
+materials = ("cementbags", "bricks", "sand", "Steelbars", "Paint") 
+print(materials)
+print ("list of element is=",materials) 
+print ("materials[0]:", materials [0])
+print ("materials[1:3]:", materials [1:3])
+
+
