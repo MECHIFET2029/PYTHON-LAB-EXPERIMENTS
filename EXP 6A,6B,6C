@@ -1,0 +1,29 @@
+6A
+def reverse(string):
+    string = string[::-1] 
+    return string
+s =input("enter a string")
+print ("The original string is : ",end="")
+print (s)
+print ("The reversed string(using extended slice syntax) is : ",end="") 
+print (reverse(s))
+
+6B
+def isPalindrome(s): 
+    return s == s[::-1]
+# Driver code
+s = input("Enter the string=") 
+ans = isPalindrome(s)
+if ans:
+    print("the string is palindrome ")
+else:
+    print("The string is not a palindrome")
+
+6C
+input_string = input("Enter a string : ") count = 0
+for c in input_string :
+	if c.isspace() != True: 
+		count = count + 1
+print("Total number of characters : ",count)
+
+
