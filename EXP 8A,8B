@@ -1,0 +1,22 @@
+8A
+a=int(input("Entre a=")) 
+b=int(input("Entre b=")) 
+try:
+    c = ((a+b) / (a-b))
+    if a==b:
+        raise ZeroDivisionError #Handling of error
+except ZeroDivisionError:
+    print ("a/b result in 0") 
+else:
+    print (c)
+
+8B
+    age=int(input("Enter your age")) 
+    try:        
+        if age>18:
+            print("Eligible to vote") 
+        else:
+            print("Not eligible to vote") 
+    except:
+            print("age must be a valid number") 
+            main()
